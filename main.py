@@ -1,1 +1,4 @@
-from bore.bot import Bot
+from core.bot import Bot
+
+client = Bot()
+client.run(TOKEN)
