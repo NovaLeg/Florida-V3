@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import re
+import requests
 import datetime
 
 time_regex = re.compile(r'(\d+)([smhd])')
