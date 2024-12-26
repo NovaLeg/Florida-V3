@@ -5,7 +5,7 @@ import datetime
 
 time_regex = re.compile(r'(\d+)([smhd])')
 
-class Moderation(commands.Cog):
+class mod(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.warns = {}
@@ -287,5 +287,5 @@ class Moderation(commands.Cog):
         await ctx.message.add_reaction('<:check:1297452315007127612>')
 
 async def setup(bot):
-    await bot.add_cog(Moderation(bot))
+    await bot.add_cog(mod(bot))
     
